@@ -1,3 +1,3 @@
 <?php
-print 'testas'
+print 'testass'
 ?>
