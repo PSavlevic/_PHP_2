@@ -14,9 +14,9 @@
     <body>
         <div>
             <h1>Skolos skaiciuokle</h1>
-            <h3>Jei paėmei <?php print $eur1; ?>jievru</h3>
-            <h4>Su dviem kabanciais grazinsi <?php print $eur3; ?></h4>
-            <h2>Su vienu kabanciu grazinsi <?php print $eur3; ?></h2>
+            <h3>Jei paėmei <?php print $eur1; ?> euru.</h3>
+            <h4>Su dviem kabanciais grazinsi <?php print $eur3; ?> euru.</h4>
+            <h2>Su vienu kabanciu grazinsi <?php print $eur3; ?> euru.</h2>
         </div>
     </body>
 </html>
