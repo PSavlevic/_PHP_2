@@ -1,8 +1,8 @@
 <?php
-
-    $eur1 = rand(1, 100);
-    $eur2 = rand(101, 200);
-    $eur3 = rand(201, 300);
+$turis = 40;
+$avg = 15;
+$max = rand(10, 40);
+$dienu =  floor(($turis + $max) / $avg);
 
 ?>
 <!DOCTYPE html>
@@ -12,9 +12,11 @@
         <title>uzduotis</title>
     </head>
     <body>
-        <h1>Skolos skaiciuokle</h1>
-        <h3>Jei paėmei <?php print $eur1; ?> euru.</h3>
-        <h4>Su dviem kabanciais grazinsi <?php print $eur3; ?> euru.</h4>
-        <h2>Su vienu kabanciu grazinsi <?php print $eur3; ?> euru.</h2>
+        <h1>Po keliu dienu kils barnis?</h1>
+        <ul>
+            <li>
+            Po <?php print $dienu . ' (' . date('Y-m-d', strtotime("+$dienu days")) . ')' ?> dienu pirk geliu ir sampano, jeigu nori, kad zmona siuksles pati isnestu.
+            </li>
+        </ul>
     </body>
 </html>
