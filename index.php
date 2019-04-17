@@ -1,8 +1,8 @@
 <?php
 
-    $sudas1 = rand(1, 100);
-    $sudas2 = rand(101, 200);
-    $sudas3 = rand(201, 300);
+    $rnd1 = rand(1, 100);
+    $rnd2 = rand(101, 200);
+    $rnd3 = rand(201, 300);
 
 ?>
 <!DOCTYPE html>
