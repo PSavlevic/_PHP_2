@@ -13,10 +13,10 @@
         $xuy = null;
 
         print "String: $string <br>";
-        print "String: $integer <br>";
-        print "String: $float <br>";
-        print "String: $boolean <br>";
-        print "String: $xuy <br>";
+        print "Integer: $integer <br>";
+        print "Float: $float <br>";
+        print "Boolean: $boolean <br>";
+        print "XUY: $xuy <br>";
     ?>
 
 </body>
