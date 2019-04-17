@@ -15,7 +15,7 @@ $dienu =  floor(($turis + $max) / $avg);
         <h1>Po keliu dienu kils barnis?</h1>
         <ul>
             <li>
-            Po <?php print $dienu . ' (' . date('Y-m-d', strtotime("+$dienu days")) . ')' ?> dienu pirk geliu ir sampano, jeigu nori, kad zmona siuksles pati isnestu.
+            Po <?php print $dienu . ' dienu' . ' (' . date('Y-m-d', strtotime("+$dienu days")) . ')' ?> pirk geliu ir sampano, jeigu nori, kad zmona siuksles pati isnestu.
             </li>
         </ul>
     </body>
