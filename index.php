@@ -1,6 +1,8 @@
 <?php
 
-$img1 = 'http://www.clker.com/cliparts/7/Q/L/g/y/j/button-orange-small-md.png';
+    $sudas1 = rand(1, 100);
+    $sudas2 = rand(101, 200);
+    $sudas3 = rand(201, 300);
 
 ?>
 <!DOCTYPE html>
@@ -10,9 +12,11 @@ $img1 = 'http://www.clker.com/cliparts/7/Q/L/g/y/j/button-orange-small-md.png';
     <title>uzduotis</title>
 </head>
 <body>
-    <img src="<?php print $img1; ?>">
-    <img src="<?php print $img1; ?>">
-    <img src="<?php print $img1; ?>">
-    <img src="<?php print $img1; ?>">
+    <div class="body1">
+        <h1>Skolos skaiciuokle</h1>
+        <h3>Jei paėmei <?php print $sudas1; ?>jievru</h3>
+        <h4>Su dviem kabanciais grazinsi <?php print $sudas3; ?></h4>
+        <h2>Su vienu kabanciu grazinsi <?php print $sudas2; ?></h2>
+    </div>
 </body>
 </html>
