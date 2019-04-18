@@ -1,43 +1,29 @@
 <?php
 
-$time = date('s');
-$timer = $time % 60;
-$explo = $timer<1;
-
-$plius = date('s') + 50;
-
-$img_height = $plius + 150 . 'px;';
-$img_width = $plius + 150 . 'px;';
+$distance = rand(500, 2000);
+$consumption = 7.5;
+$price_1 = 1.3;
+$fuel_total = round(($distance * 7.5) / 100, 2);
+$price = round(1.3 * $fuel_total, 2);
+$text = "Nuvaziavus $distance km, masina sunaudos $fuel_total l. kuro. Kaina: $price Eur pinigu";
+$money = 100;
+if ($money >= $price) {
+    $rez = 'Varom hebryte!!!';
+} else {
+    $rez = 'Biski truksta.. :(';
+}
 
 ?>
 
 <!DOCTYPE html>
 <html>
 <head>
-    <title></title>
-    <style type="text/css">
-        .imgboom {
-            background-image: url('https://www.gamemodd.com/uploads/posts/2017-05/1496003312_cs-go-c4.jpg?fbclid=IwAR0lqUFsuwBqgsnUFFHvs2x7Y8ER1wsLyTRntrNH_WROaC6WJg5e1_6I7Rg');
-            background-size: cover;
-            height: <?php print $img_height; ?>
-            width: <?php print $img_width; ?>
-        }
-        .imgboom-1 {
-            background-image: url('https://3c1703fe8d.site.internapcdn.net/newman/csz/news/800/2017/1-fiveofthemos.jpg?fbclid=IwAR16k40XeALTn3GFJ-KQ9vor2vWdzaigCPJW3PgSN4HsHWQXGeJGx3ojUPg');
-            background-size: cover;
-            height: 150px;
-            width: 150px;
-        }
-    </style>
+    <title>title</title>
 </head>
 <body>
-<div class="imgboom-<?php print $explo; ?> imgboom"></div>
-<?php
-
-print $time . '<br>';
-print $timer . '<br>';
-print $explo . '<br>';
-
-?>
+    <?php
+    print "$text" . '<br><br>';
+    print $rez;
+    ?>
 </body>
 </html>
