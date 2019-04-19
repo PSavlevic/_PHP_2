@@ -1,0 +1,16 @@
+.sauleta {
+     background-image: url("https://www.wpclipart.com/weather/sun/sun_sharp_rays/sun_spiked_rays_orange.png");
+     width: 500px;
+     height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+.lietus {
+    background-image: url("http://files.softicons.com/download/web-icons/vector-stylish-weather-icons-by-bartosz-kaszubowski/ico/cloud.rain.ico");
+    width: 500px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+

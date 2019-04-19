@@ -4,10 +4,10 @@ $x = rand(0, 1);
 
 if ($x) {
     $css_class = 'sauleta';
-    $text1 = 'sauleta';
+    $text1 = 'Sauleta';
 } else {
     $css_class = 'lietus';
-    $text1 = 'lietus';
+    $text1 = 'Lietus';
 }
 ?>
 <!DOCTYPE html>
