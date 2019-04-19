@@ -1,29 +1,27 @@
 <?php
 
-$distance = rand(500, 2000);
-$consumption = 7.5;
-$price_1 = 1.3;
-$fuel_total = round(($distance * 7.5) / 100, 2);
-$price = round(1.3 * $fuel_total, 2);
-$text = "Nuvaziavus $distance km, masina sunaudos $fuel_total l. kuro. Kaina: $price Eur pinigu";
-$money = 100;
-if ($money >= $price) {
-    $rez = 'Varom hebryte!!!';
+$x = rand(0, 1);
+
+if ($x) {
+    $css_class = 'sauleta';
+    $text1 = 'sauleta';
 } else {
-    $rez = 'Biski truksta.. :(';
+    $css_class = 'lietus';
+    $text1 = 'lietus';
 }
-
 ?>
-
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
     <title>title</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <?php
-    print "$text" . '<br><br>';
-    print $rez;
-    ?>
+<div class="container">
+    <h1 class="<?php print $css_class; ?>">
+        <?php print "$text1";?>
+    </h1>
+</div>
 </body>
 </html>
