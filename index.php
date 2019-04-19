@@ -5,13 +5,13 @@ if (($sek % 2) == 1) {
     $css_class = "kvadratas";
 } elseif (($sek % 2) == 0) {
     $css_class = "apskritimas";
-
 }
 ?>
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv='refresh' content='1'>
     <link rel="stylesheet" href="style.css">
     <title>title</title>
 
@@ -22,9 +22,7 @@ if (($sek % 2) == 1) {
            <div class="flex">
                <h2><?php print $sek; ?></h2>
            </div>
-
        </div>
-
     </div>
 </body>
 </html>
