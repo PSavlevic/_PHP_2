@@ -1,32 +1,34 @@
-.rainbow {
-     background-image: url("https://cdn1.iconfinder.com/data/icons/weather-19/32/rainbow-512.png");
-     width: 500px;
-     height: 500px;
-    background-repeat: no-repeat;
-    background-size: cover;
- }
-
-.sunny {
-    background-image: url("https://www.freeiconspng.com/uploads/sunny-icon-9.png");
-    width: 500px;
-    height: 500px;
-    background-repeat: no-repeat;
-    background-size: cover;
+.container {
+    display: flex;
+    text-align: center;
+    /*width: 100%;*/
+    height: 800px;
+    justify-content: center;
+    align-items: center;
 }
 
-.rain {
-    background-image: url("https://cdn3.iconfinder.com/data/icons/picons-weather/57/15_heavy_rain-512.png");
-    width: 500px;
-    height: 500px;
-    background-repeat: no-repeat;
-    background-size: cover;
+.kvadratas {
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    text-shadow: 2px 2px 5px black;
+    box-shadow:  20px 20px silver;
 }
 
-.cloudy {
-    background-image: url("https://cdn3.iconfinder.com/data/icons/sunnyday-2/142/Partly_Cloudy-512.png");
-    width: 500px;
-    height: 500px;
-    background-repeat: no-repeat;
-    background-size: cover;
+.apskritimas {
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+    border-radius: 50%;
+    text-shadow: 2px 2px 5px black;
+    box-shadow:  10px 10px silver;
+
 }
 
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    height: 100%;
+}
